@@ -184,7 +184,7 @@ namespace Plugin.Media
 				}
 				else
 				{
-					picker.DismissViewController(true, onDismiss);
+					picker.PresentingViewController.DismissViewController(true, onDismiss);
 				}
 			}
 		}
